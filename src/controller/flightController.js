@@ -40,6 +40,6 @@ module.exports = {
     if (index === -1) return res.status(404).send("Not found");
 
     flights[index] = { ...flights[index], ...updated };
-    return res.json(flights[index]);
+    return res.status(201).json(flights[index]);
   },
 };
