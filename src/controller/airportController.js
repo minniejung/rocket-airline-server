@@ -1,4 +1,4 @@
-const airports = require('../repository/airportList');
+const airports = require("../repository/airportList");
 
 module.exports = {
   // [GET] /airport?query={query} 요청을 수행합니다.
